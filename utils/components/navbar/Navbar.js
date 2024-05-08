@@ -19,13 +19,13 @@ export default function Navbar() {
         </div>
       </div>
       <div className="middle-nav row">
-        <HomeRoundedIcon />
-        <GroupRoundedIcon />
-        <StoreRoundedIcon />
+        <HomeRoundedIcon sx={{ fontSize: 40 }} />
+        <GroupRoundedIcon sx={{ fontSize: 40 }} />
+        <StoreRoundedIcon sx={{ fontSize: 40 }} />
       </div>
       <div className="nav-right row">
-        <WidgetsRoundedIcon />
-        <CircleNotificationsRoundedIcon />
+        <WidgetsRoundedIcon sx={{ fontSize: 40 }} />
+        <CircleNotificationsRoundedIcon sx={{ fontSize: 40 }} />
       </div>
     </div>
   );
