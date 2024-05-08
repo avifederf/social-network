@@ -14,16 +14,25 @@
   background-color: transparent;
   border: solid;
   padding: 8px 16px;
-  gap: 5px;
+  gap: 10px;
 }
 .search input {
   background-color: transparent;
   border: none;
-  outline: none;
+  outline: none; 
 }
+.equal-beetween {
+  display: grid;
+  grid-template-columns: auto auto; /* שני האלמנטים יהיו בשורה אחת */
+  grid-gap: 10px; /* ריווח בין האלמנטים */
+}
+
 .nav-left {
   justify-content: space-between;
-  gap: 5px;
+  /* display: inline-block; */
+  gap: 10px;
+  padding: auto;
+  margin-top: auto;
 }
 .middle-nav {
   display: flex;

@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className="nav-container">
       <div className="nav-left row center">
         <FacebookSharpIcon color="primary" sx={{ fontSize: 60 }} />
-        <div className="search">
+        <div className="search equal-beetween">
           <SearchRoundedIcon />
           <input type="text" name="search" placeholder="Search Facebook" />
         </div>
