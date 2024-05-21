@@ -1,0 +1,17 @@
+.login_friends {
+  border: 2px solid blue;
+  width: 400px;
+  height: calc(100vh - 100px);
+  text-align: center;
+}
+.homepage {
+  display: grid;
+  grid-template-columns: 400px 700px;
+  gap: 50px;
+}
+.posts {
+  width: 100%;
+  text-align: center;
+
+  border: 2px solid black;
+}
